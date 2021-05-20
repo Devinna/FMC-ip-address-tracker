@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto text-center" max-width="344" outlined>
+  <v-card class="mx-auto text-center rounded-xl child" min-width="320" outlined>
     <v-card-text>
       <div class="text-uppercase caption">
         IP Address
@@ -26,3 +26,12 @@ export default {
   name: 'Result',
 }
 </script>
+
+<style scoped>
+.child {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+</style>

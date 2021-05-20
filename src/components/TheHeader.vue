@@ -1,12 +1,12 @@
 <template>
   <div>
-    <v-img src="../assets/pattern-bg.png" class="pa-4">
+    <v-img src="../assets/pattern-bg.png" class="pa-4" min-height="300">
       <h2 class="white--text text-center font-weight-regular">
         IP Address Tracker
       </h2>
       <SearchBox />
-      <Result/>
     </v-img>
+    <Result />
   </div>
 </template>
 
